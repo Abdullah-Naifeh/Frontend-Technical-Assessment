@@ -30,8 +30,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Ignore all local environment files with actual keys
+.env*.local
+.env
+
+# Explicitly allow the example template to be tracked by Git
+!.env.example
 
 # vercel
 .vercel

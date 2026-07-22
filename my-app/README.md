@@ -40,8 +40,8 @@ Filtering large datasets on every single keystroke can block the JavaScript main
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/crypto-dashboard.git](https://github.com/yourusername/crypto-dashboard.git)
-   cd crypto-dashboard
+   git clone [https://github.com/Abdullah-Naifeh/Frontend-Technical-Assessment.git]
+   cd my-app
 Install dependencies:
 
 Bash
@@ -56,3 +56,12 @@ Run the development server:
 Bash
 npm run dev
 Open http://localhost:3000 in your browser to see the result.
+
+## 🧪 Testing the App
+
+To bypass the registration process and jump straight into the dashboard, you can use this test account:
+
+* **Email:** `demo@user.com`
+* **Password:** `password`
+
+*(Note: This is a dummy account provisioned with read-only access to showcase the dashboard features).*
