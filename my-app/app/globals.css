@@ -5,11 +5,20 @@
   --foreground: #171717;
 }
 
+@theme {
+  /* custom background and container colors */
+  --color-dashboard-bg: #0b0f19;
+  --color-dashboard-card: #151b2c;
+  --color-dashboard-border: #1e293b;
+  --color-text-blue: #89CEFF;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
 }
 
 @media (prefers-color-scheme: dark) {
