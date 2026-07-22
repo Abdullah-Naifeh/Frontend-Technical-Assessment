@@ -13,7 +13,7 @@ export function LoginForm() {
     e.preventDefault();
     const success = login(email, password);
     if (!success) {
-      setError('Invalid credentials. Use demo@user.com / password');
+      setError('Invalid credentials');
     }
   };
 

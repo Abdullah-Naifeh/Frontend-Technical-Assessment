@@ -15,7 +15,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState<{ name: string } | null>(null);
 
-  // Sync session on initial browser load
   useEffect(() => {
     const savedSession = localStorage.getItem('auth_session');
     if (savedSession === 'true') {
@@ -25,7 +24,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = (email: string, pass: string) => {
-    // Simple mock credential check
     if (email === 'demo@user.com' && pass === 'password') {
       setIsAuthenticated(true);
       setUser({ name: 'Demo User' });
